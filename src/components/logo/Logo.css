@@ -1,0 +1,17 @@
+.logo {
+  font-size: 1.3rem;
+  font-family: var(--fontLogo);
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: var(--fontGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+}
+
+.logo:hover {
+  filter: var(--fontGradientHover);
+  transition: 0.3s;
+}

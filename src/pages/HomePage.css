@@ -1,0 +1,26 @@
+.homePage{
+    width: 100%;
+    height: 100vh;
+}
+
+.bgGlowPurple {
+  position: absolute;
+  top: 10%;
+  left: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(138, 43, 226, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+  filter: blur(80px);
+  z-index: -1;
+}
+
+.bgGlowBlue {
+  position: absolute;
+  bottom: 10%;
+  right: -5%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0, 209, 255, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
+  filter: blur(100px);
+  z-index: -1;
+}

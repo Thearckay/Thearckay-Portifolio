@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-family: var(--fontDefault);
+    color: var(--fontDefaultColor);
+    max-height: 71px;
+}
+
+.headerPageList{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.headerPageButton{
+    background: var(--fontGradient); 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3); 
+    font-weight: 600;
+    font-size: 0.95rem; 
+    padding: 0.8rem 1.5rem; 
+    border-radius: 999px; 
+    border: none; 
+    cursor: pointer; 
+    color: var(--fontDefaultColor);
+}
+
+.headerPageButton:hover{
+    filter: var(--fontGradientHover);
+    transition: 0.3s;
+}
