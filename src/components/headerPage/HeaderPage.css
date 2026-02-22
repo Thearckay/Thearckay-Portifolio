@@ -50,11 +50,14 @@
 
 .headerPageButtonLink{
     display: flex;
-    gap: 8px;
+    gap: 5px;
 }
 
 @media(max-width: 570px) {
     #headerPageAbout, #headerPageProjects, #headerPageExperience{
         display: none;
+    }
+    .headerPageButtonLink{
+        font-size: 10px;
     }
 }
