@@ -6,7 +6,7 @@ const ContactSection = () => {
     <section className="contact-section">
         <div className="contact-container">
             <div className="contact-header">
-            <h2 className="contact-title">Vamos criar algo <span>extraordinário</span></h2>
+            <h2 className="contact-title">Vamos criar algo <span>novo?</span></h2>
             <p>Se você tem uma pergunta ou apenas quer dizer olá, minha caixa de entrada está sempre aberta.</p>
             </div>
 
