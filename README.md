@@ -3,15 +3,14 @@
 
 Este repositório contém o código-fonte de uma landing page pessoal desenvolvida para centralizar meus projetos acadêmicos e estudos técnicos. O objetivo foi criar uma interface de alto impacto visual utilizando React, focando em performance e organização de componentes.
 
-<!-- ## Demonstração Visual
+## Demonstração Visual
 
 Abaixo constam capturas de tela das principais seções do projeto para visualização do design e layout:
 
-![Interface Desktop](./assets/home-desktop.png)
-*Interface principal utilizando estética neon e glassmorphism.*
+![Interface Desktop](./src/assets/images/mockLandingPageDesktop.png)
 
-![Interface Mobile](./assets/mobile-view.png)
-*Layout adaptivo focado na usabilidade em dispositivos móveis.* -->
+![Interface Mobile](./src/assets/images/mockLandingPageMobile.png)
+*Layout adaptivo focado na usabilidade em dispositivos móveis.*
 
 ## Arquitetura e Tecnologias
 
