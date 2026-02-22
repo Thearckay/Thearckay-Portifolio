@@ -16,7 +16,7 @@ const ExperienceSection = () => {
                         <span className="status-pill current">Atual</span>
                     </div>
                     <span className="institution">Análise e Desenvolvimento de Sistemas</span>
-                    <p>Desenvolvimento de soluções práticas e teóricas durante o curso, aplicando conceitos de engenharia de software e programação.</p>
+                    <p>Desenvolvo sistemas práticos como parte da graduação em ADS na UNIASSELVI, aplicando fundamentos de engenharia de software e lógica de programação. Utilizo Java para a criação de aplicações desktop e estruturação de bancos de dados relacionais com MySQL, focando em transformar a teoria acadêmica em código funcional.</p>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@ const ExperienceSection = () => {
                         <span className="status-pill">Contínuo</span>
                     </div>
                     <span className="institution">Full Stack Development</span>
-                    <p>Aprofundamento em tecnologias modernas como React, Spring Boot e Mobile Development com foco em boas práticas.</p>
+                    <p>Foco no estudo do ecossistema Full Stack e desenvolvimento mobile nativo. Dedico-me à integração de backends em Spring Boot com interfaces em React via APIs REST, além de explorar o desenvolvimento Android com Kotlin, utilizando Git para versionamento e documentação do meu progresso técnico</p>
                 </div>
             </div>
         </div>

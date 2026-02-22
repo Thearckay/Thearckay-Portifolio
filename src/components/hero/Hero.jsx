@@ -13,9 +13,7 @@ return (
         </h1>
 
         <p className="hero-description">
-            Estudante de Análise e Desenvolvimento de Sistemas. 
-            Crio experiências digitais que fundem código limpo com estética neon imersiva. 
-            Construindo o futuro, um pixel de cada vez.
+            Sou estudante de Análise e Desenvolvimento de Sistemas. Gosto de entender como as coisas funcionam por trás da interface e estou construindo meus primeiros projetos para aplicar o que aprendo na faculdade. Atualmente, meu foco é dominar o ecossistema Java e o desenvolvimento web com React.
         </p>
 
         <div className="skills-wrapper">
