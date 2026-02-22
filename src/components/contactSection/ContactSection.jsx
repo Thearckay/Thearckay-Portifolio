@@ -10,23 +10,39 @@ const ContactSection = () => {
             <p>Se você tem uma pergunta ou apenas quer dizer olá, minha caixa de entrada está sempre aberta.</p>
             </div>
 
-            <form className="contact-form">
-            <div className="input-group">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" placeholder="Digite seu Email" required />
-            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" className="contact-form">
+                <input type="hidden" name="access_key" value="237bc53c-3ade-4a14-b922-e79cef6f0106" />
 
-            <div className="input-group">
-                <label htmlFor="message">Mensagem</label>
-                <textarea id="message" rows="5" placeholder="Conte-me sobre seu projeto..." required></textarea>
-            </div>
+                <div className="input-group">
+                    <label htmlFor="email">Email</label>
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Digite seu Email" 
+                    required 
+                    />
+                </div>
 
-            <button type="submit" className="btn-send">Enviar Mensagem</button>
+                <div className="input-group">
+                    <label htmlFor="message">Mensagem</label>
+                    <textarea 
+                    name="message" 
+                    id="message" 
+                    rows="5" 
+                    placeholder="Conte-me sobre seu projeto..." 
+                    required
+                    ></textarea>
+                </div>
+                <input type="hidden" name="from_name" value="Portfólio Thearckay" />
+                <input type="hidden" name="subject" value="Novo Contato do Site" />
+
+                <button type="submit" className="btn-send">Enviar Mensagem</button>
             </form>
 
             <div className="social-links">
-            <a href="www.linkedin.com/in/kayck-arcanjo/" target='_blank'><i className="bi bi-linkedin"></i></a>
-            <a href="https://github.com/Thearckay" target='_blank'><i className="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/kayck-arcanjo/" target='_blank'><i className="bi bi-linkedin"></i></a>
+                <a href="https://github.com/Thearckay" target='_blank'><i className="bi bi-github"></i></a>
             </div>
         </div>
     </section>
