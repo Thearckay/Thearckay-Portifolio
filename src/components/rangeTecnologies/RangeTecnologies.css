@@ -1,0 +1,43 @@
+.tech-ticker-container {
+    width: 100%;
+    overflow: hidden;
+    background: var(--thirdBackgroundColor);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px 0;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.tech-ticker-content {
+    display: flex;
+    white-space: nowrap;
+    gap: 60px; 
+    animation: ticker-scroll 50s linear infinite; 
+}
+
+.tech-item {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--fontDetailsColor);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.tech-item:hover {
+    color: var(--fontDefaultColor);
+    text-shadow: 1px 1px 20px var(--mainColor) ;
+    cursor: default;
+}
+
+@keyframes ticker-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

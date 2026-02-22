@@ -24,14 +24,17 @@ body::before {
   z-index: 10;
 }
 :root{
-  --fontGradient: linear-gradient(135deg, #8A2BE2 0%, #4D79FF 100%);
+  --mainColor: #8A2BE2;
+  --fontGradient: linear-gradient(135deg, var(--mainColor) 0%, #00D1FF 100%);
   --fontGradientHover: drop-shadow(0 0 8px rgba(138, 43, 226, 0.6));
 
   --fontLogo: 'Outfit', sans-serif;
   --fontDefault: 'Outfit', sans-serif;
   --fontDefaultColor: #FFFFFF;
   --fontDefaultColorContrast: #000000 ;
+  --fontDetailsColor: #3C434D;
 
   --mainBackgroundColor: #0A0A0A;
   --itensBackgroundColor:rgba(255, 255, 255, 0.05);
+  --thirdBackgroundColor: #171717;
 }

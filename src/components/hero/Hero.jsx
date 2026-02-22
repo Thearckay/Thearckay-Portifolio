@@ -4,7 +4,7 @@ import heroImage from '../../assets/images/thearckay.jpg'
 
 const Hero = () => {
 return (
-    <section className="hero">
+    <section className="hero" id='home'>
     <div className="hero-content">
         <span className="hero-tagline">Estudante Full Stack & Desenvolvedor de Software</span>
         <h1> 
@@ -49,8 +49,8 @@ return (
         </div>
 
         <div className="hero-actions">
-            <button className="btn-primary">Ver Projetos</button>
-            <button className="btn-secondary">GitHub <i class="bi bi-box-arrow-up-right"></i></button>
+            <button className="btn-primary"><a href="#projects" className='hero-button' target='_blank'>Ver Projetos</a></button>
+            <button className="btn-secondary"><a href="https://github.com/Thearckay" className='hero-github-button' target='_blank'>GitHub</a> <i class="bi bi-box-arrow-up-right"></i></button>
         </div>
     </div>
 

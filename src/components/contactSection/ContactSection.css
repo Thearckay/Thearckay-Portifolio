@@ -1,0 +1,125 @@
+.contact-section {
+  background-color: var(--mainBackgroundColor);
+  padding: 100px 8%;
+  display: flex;
+  justify-content: center;
+  font-family: var(--fontDefault);
+  color: var(--fontDefaultColor);
+}
+
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-header {
+  margin-bottom: 50px;
+}
+
+.contact-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.contact-title span {
+  display: block;
+  background: var(--fontGradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-header p {
+  color: var(--fontDetailsColor);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Formulário com Efeito Glass */
+.contact-form {
+  background: var(--itensBackgroundColor);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 24px;
+  text-align: left;
+  backdrop-filter: blur(10px);
+  margin-bottom: 40px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #DDD;
+}
+
+.input-group input, 
+.input-group textarea {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  color: white;
+  font-family: inherit;
+  transition: 0.3s;
+}
+
+.input-group input:focus, 
+.input-group textarea:focus {
+  outline: none;
+  border-color: var(--mainColor);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Botão com Gradiente */
+.btn-send {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: var(--fontGradient);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(138, 43, 226, 0.2);
+}
+
+.btn-send:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+  box-shadow: 0 15px 30px rgba(138, 43, 226, 0.4);
+}
+
+/* Links Sociais */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-links a {
+  color: var(--fontDetailsColor);
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--mainColor);
+  transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 25px;
+  }
+}

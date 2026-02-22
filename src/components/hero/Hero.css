@@ -49,6 +49,21 @@
     margin-bottom: 40px;
 }
 
+.hero-button{
+    color: var(--fontDefaultColorContrast);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero-github-button{
+    color: var(--fontDefaultColor);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .skills-wrapper {
     display: flex;
     flex-wrap: wrap;

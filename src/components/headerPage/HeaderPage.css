@@ -36,6 +36,11 @@
     color: var(--fontDefaultColor);
 }
 
+.headerPageButtons{
+    text-decoration: none;
+    color: var(--fontDefault);
+}
+
 .headerPageButton:hover{
     filter: var(--fontGradientHover);
     transition: 0.3s;

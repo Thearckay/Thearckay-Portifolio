@@ -7,10 +7,10 @@ const HeaderPage = () => {
     <header className='header'>
         <Logo />
         <ul className='headerPageList'>
-            <li>Sobre</li>
-            <li>Projetos</li>
-            <li>Experiência</li>
-            <li><button className='headerPageButton'>Vamos Conversar</button></li>
+            <li><a href="#home" className='headerPageButtons'>Sobre</a></li>
+            <li><a href="#projects" className='headerPageButtons'>Projetos</a></li>
+            <li><a href="#experience" className='headerPageButtons'>Experiência</a></li>
+            <li><button className='headerPageButton'><a href="https://wa.me/5573998006947" target='_blank' className='headerPageButtons'>Vamos Conversar</a></button></li>
         </ul>
     </header>
   )
