@@ -47,3 +47,14 @@
     filter: var(--fontGradientHover);
     transition: 0.3s;
 }
+
+.headerPageButtonLink{
+    display: flex;
+    gap: 8px;
+}
+
+@media(max-width: 570px) {
+    #headerPageAbout, #headerPageProjects, #headerPageExperience{
+        display: none;
+    }
+}
