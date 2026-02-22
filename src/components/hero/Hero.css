@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 2% 100px;
+    /* padding: 80px 0 100px; */
     min-height: 90vh;
     gap: 60px;
     max-width: 1400px;
