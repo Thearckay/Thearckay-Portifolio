@@ -41,3 +41,31 @@
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 768px) {
+    .tech-ticker-container {
+        padding: 15px 0;
+        min-height: 4rem;
+    }
+
+    .tech-ticker-content {
+        gap: 40px;
+        animation: ticker-scroll 30s linear infinite;
+    }
+
+    .tech-item {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-item {
+        font-size: 0.65rem;
+        letter-spacing: 1px;
+    }
+
+    .tech-ticker-content {
+        gap: 30px;
+    }
+}
