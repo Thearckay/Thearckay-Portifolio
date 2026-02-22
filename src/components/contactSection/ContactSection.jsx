@@ -11,7 +11,7 @@ const ContactSection = () => {
             </div>
 
             <form action="https://api.web3forms.com/submit" method="POST" className="contact-form">
-                <input type="hidden" name="access_key" value="237bc53c-3ade-4a14-b922-e79cef6f0106" />
+                <input type="hidden" name="access_key" value="d4287c3e-b5e0-4d22-a279-95cc3c057b32" />
 
                 <div className="input-group">
                     <label htmlFor="email">Email</label>
