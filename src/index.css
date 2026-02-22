@@ -11,6 +11,7 @@ body {
   background-color: var(--mainBackgroundColor);
   margin: 0;
   overflow-x: hidden;
+  overflow: hidden;
 }
 
 body::before {
