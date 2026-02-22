@@ -1,17 +1,14 @@
-# Portifólio Web - React / React Router
-# Portfolio Pessoal - React & Vite
+# Portifólio Web - React & Vite / React Router
 
 Este repositório contém o código-fonte de uma landing page pessoal desenvolvida para centralizar meus projetos acadêmicos e estudos técnicos. O objetivo foi criar uma interface de alto impacto visual utilizando React, focando em performance e organização de componentes.
 
 ## Demonstração Visual
 
-Abaixo constam capturas de tela das principais seções do projeto para visualização do design e layout:
+Abaixo constam as capturas de tela da interface principal em diferentes resoluções:
 
-![Interface Desktop](./src/assets/images/mockLandingPageDesktop.png)
-
-![Interface Mobile](./src/assets/images/mockLandingPageMobile.png)
-*Layout adaptivo focado na usabilidade em dispositivos móveis.*
-
+| Visualização Desktop | Visualização Mobile |
+|---|--
+| ![Interface Desktop](./src/assets/images/mockLandingPageDesktop.png) | ![Interface Mobile](./src/assets/images/mockLandingPageMobile.png) |
 ## Arquitetura e Tecnologias
 
 * **React.js & Vite:** Utilizados para garantir um ambiente de desenvolvimento rápido e uma build final otimizada.
@@ -19,6 +16,8 @@ Abaixo constam capturas de tela das principais seções do projeto para visualiz
 * **CSS3 Custom Properties:** Uso de variáveis globais para manutenção de temas e consistência visual em todo o projeto.
 * **Web3Forms API:** Integração de serviço de backend para processamento de formulários de contato sem necessidade de servidor próprio.
 * **Deploy Contínuo:** Configurado via Vercel com atualizações automáticas a cada novo commit.
+
+Confira o projeto: [Clique aqui.](https://thearckay.vercel.app)
 
 ## Estrutura de Conteúdo
 
