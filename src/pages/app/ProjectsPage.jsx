@@ -13,7 +13,6 @@ const ProjectsPage = () => {
   const [idToDelete, setIdToDelete] = useState(-1)
 
   const deleteProjectHandle = async () => {
-    console.log('o id para deleção é: '+idToDelete)
     const respStatus = await deleteProjectHandlerApiConnection(idToDelete)
 
     if(respStatus == 200){
@@ -50,7 +49,6 @@ const ProjectsPage = () => {
 
   const handlerGetProjects = async () => {
     const backendResponse = await getProjectsHandlerApiConnection()
-    console.log(backendResponse)
     if(backendResponse.status == 200){
       const projects= backendResponse.data[0]
       setNotification({title: 'Carregado!', message: backendResponse.message, type: 'success'})
