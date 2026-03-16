@@ -11,7 +11,7 @@ body {
   background-color: var(--mainBackgroundColor);
   margin: 0;
   overflow-x: hidden;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 body::before {
@@ -19,15 +19,17 @@ body::before {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background-image: url('https:// grain-texture-url'); 
+  /* background-image: url('https://grain-texture-url');  */
   opacity: 0.03; 
   pointer-events: none;
   z-index: 10;
 }
+
 :root{
   --mainColor: #8A2BE2;
   --fontGradient: linear-gradient(135deg, var(--mainColor) 0%, #00D1FF 100%);
   --fontGradientHover: drop-shadow(0 0 8px rgba(138, 43, 226, 0.6));
+  --colorGradientColor: linear-gradient(45deg, var(--mainColor), #ff00ff);
 
   --fontLogo: 'Outfit', sans-serif;
   --fontDefault: 'Outfit', sans-serif;
@@ -37,5 +39,6 @@ body::before {
 
   --mainBackgroundColor: #0A0A0A;
   --itensBackgroundColor:rgba(255, 255, 255, 0.05);
+  --backgrounDetailsColor: rgba(13, 13, 15, 0.8);
   --thirdBackgroundColor: #171717;
 }

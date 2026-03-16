@@ -48,7 +48,7 @@ return (
 
         <div className="hero-actions">
             <button className="btn-primary"><a href="#projects" className='hero-button' target='_blank'>Ver Projetos</a></button>
-            <button className="btn-secondary"><a href="https://github.com/Thearckay" className='hero-github-button' target='_blank'>GitHub</a> <i class="bi bi-box-arrow-up-right"></i></button>
+            <button className="btn-secondary"><a href="https://github.com/Thearckay" className='hero-github-button' target='_blank'>GitHub</a> <i className="bi bi-box-arrow-up-right"></i></button>
         </div>
     </div>
 

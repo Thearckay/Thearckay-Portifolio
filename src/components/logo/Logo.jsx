@@ -1,9 +1,10 @@
 import React from 'react'
 import './Logo.css'
+import { Link } from 'react-router-dom'
 
 const Logo = () => {
   return (
-    <div className='logo'>THEARCKAY</div>
+    <Link to={"/login"} className='logo'>THEARCKAY</Link>
   )
 }
 
