@@ -73,7 +73,6 @@ const deleteProjectHandlerApiConnection = async (projectId) => {
             headers: getHeaders()
         })
         const responseStatus = await response.status
-        console.log('o status é: '+responseStatus)
         return responseStatus
     } catch (error) {
         console.error('Error deleting project:', error)
@@ -121,7 +120,6 @@ const deleteImageProjectByProjectId = async (projectId) => {
     })
 
     const statusResponse = await backendResponse.status
-    console.log(statusResponse)
     return statusResponse
 }
 
