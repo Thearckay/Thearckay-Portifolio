@@ -1,17 +1,11 @@
 import React from 'react'
 import './ProjectItem.css'
-// import { deleteProjectHandlerApiConnection } from '../../api/api'
 import { useNavigate } from 'react-router-dom'
 
 
 const ProjectItem = ({id, title, description, pictureUrl, githubRepository, deployUrl, tags, isPreview=false, onClickDelete}) => {
 
     const navigate = useNavigate()
-
-    // const handlerDeleteProject = async () => {
-    //     deleteProjectHandlerApiConnection(id)
-    //     window.location.reload()
-    // }
 
     const handlerDeleteProject = async () => {
         onClickDelete(id)

@@ -56,7 +56,7 @@ const CreateProjectPage = () => {
         const projectRequest = {
             title: formData.title,
             description: formData.description,
-            projectOrder: parseInt(formData.projectOrder) || 1, // Garante que seja número
+            projectOrder: parseInt(formData.projectOrder) || 1, 
             tagList: formData.tagList.trim() !== '' 
                 ? formData.tagList.split(',').map(tag => tag.trim()).filter(tag => tag !== '') 
                 : [],
