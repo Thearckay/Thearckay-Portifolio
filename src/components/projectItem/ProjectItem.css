@@ -1,0 +1,91 @@
+.card-project-container {
+    max-width: 410px;
+    height: auto;
+    background: var(--itensBackgroundColor);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.4s ease, border-color 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-visual-projects {
+    height: 200px;
+    background: var(--thirdBackgroundColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.visual-image-projects {
+    height: 100%;
+    width: 100%;
+    font-size: 3.5rem;
+    color: var(--mainColor);
+    opacity: 0.4;
+}
+
+.card-body-projects {
+    padding: 20px;
+}
+
+.card-body-projects h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--mainColor);
+}
+
+.card-body-projects p {
+    color: #A1A1A1;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    min-height: 75px;
+}
+
+.tags-container-projects {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tags-container-projects span {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    color: #DDD;
+}
+
+.cards-buttons-projects {
+    text-decoration: none;
+}
+
+.projects-edit-buttons-div {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    margin-top: auto;
+    background-color: var(--thirdBackgroundColor);
+    border-radius: 5px;
+}
+
+.projects-edit-buttons-div button {
+    /* background: rgba(255, 255, 255, 0.03); */
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    color: #DDD;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}

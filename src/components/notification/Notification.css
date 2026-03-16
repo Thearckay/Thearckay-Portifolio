@@ -3,14 +3,15 @@
   top: 20px;
   right: 20px;
   min-width: 300px;
-  background: rgba(18, 18, 18, 0.8); 
+  background: var(--itensBackgroundColor); 
   backdrop-filter: blur(10px); 
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  color: white;
+  color: var(--fontDefaultColor);
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   animation: slideIn 0.3s ease-out forwards;
+  z-index: 1000;
 }
 
 .notification-content {
@@ -22,7 +23,7 @@
 
 .icon-section {
   font-size: 1.5rem;
-  background: linear-gradient(45deg, #8a2be2, #ff00ff);
+  background: var(--colorGradientColor) ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -42,7 +43,7 @@
 .close-btn {
   background: none;
   border: none;
-  color: white;
+  color: var(--fontDefaultColor);
   opacity: 0.5;
   cursor: pointer;
   margin-left: auto;
@@ -53,7 +54,7 @@
 
 .progress-bar {
   height: 3px;
-  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  background: var(--colorGradientColor);
   width: 100%;
   animation: progress 3s linear forwards;
 }

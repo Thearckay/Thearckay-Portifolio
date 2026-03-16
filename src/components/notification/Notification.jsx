@@ -5,6 +5,10 @@ const Notification = ({ title, message, type = 'success', onClose }) => {
 
     if (!message) return null
 
+    setTimeout(()=>{
+        onClose()
+    },3000)
+
     return (
         <div className={`notification-container ${type}`}>
             <div className="notification-content">

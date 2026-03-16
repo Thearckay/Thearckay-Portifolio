@@ -8,7 +8,7 @@ const LoginPage = () => {
     const [tittleNotification, setTittleNotification] = useState('')
     const [messageNotification, setMessageNotification] = useState('')
 
-    const [notification, setNotification] = useState(false)
+    const [notification, setNotification] = useState(true)
 
     const closeNotification = () => {
         setNotification(false)

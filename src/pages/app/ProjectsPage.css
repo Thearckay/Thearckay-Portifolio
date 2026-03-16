@@ -1,0 +1,37 @@
+.projectsSection {
+    font-family: var(--fontDefault);
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.projectsMainSection {
+    flex: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--fontDefaultColorContrast);
+    scrollbar-color: var(--itensBackgroundColor) var(--mainBackgroundColor);
+    scrollbar-width: thin;
+    overflow-y: auto;
+}
+
+.projectsHeader{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0 0 3rem;
+    color: var(--fontDefaultColor);
+}
+
+.projects-grid{
+    width: 100%;
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 3rem;
+}
