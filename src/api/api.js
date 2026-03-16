@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8080'
+const API_BASE_URL = 'https://thearckay-portifolio-backend.onrender.com'
 const getHeaders = () => {
     const token = localStorage.getItem('token')
     return {
