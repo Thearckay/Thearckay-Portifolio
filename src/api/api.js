@@ -55,7 +55,9 @@ const createProjectHandlerApiConnection = async (formData) => {
     try {
         const response = await fetch(`${API_BASE_URL}/projects`, {
             method: 'POST',
-            headers: getHeaders(),
+            headers: {
+                'Authorization': `Bearer ${localStorage.getItem('token')}`
+            },
             body: formData
         })
         const backendResponse = await response.json()

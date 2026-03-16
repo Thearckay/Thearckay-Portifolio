@@ -4,6 +4,7 @@ import Sidebar from '../../components/sideBar/Sidebar';
 import ProjectItem from '../../components/projectItem/ProjectItem';
 import Notification from '../../components/notification/Notification';
 import { useNavigate } from 'react-router-dom';
+import { createProjectHandlerApiConnection } from '../../api/api';
 
 const CreateProjectPage = () => {
 
@@ -68,20 +69,9 @@ const CreateProjectPage = () => {
             type: 'application/json'
         }));
 
-        try {
-            const response = await fetch('http://localhost:8080/projects', {
-                method: 'POST',
-                body: data,
-                headers: {
-                    'Authorization': `Bearer ${localStorage.getItem('token')}`
-                }
-            });
+        const backendResponse = await createProjectHandlerApiConnection(data)
 
-            if (!response.ok) {
-                throw new Error('Falha ao salvar projeto');
-            }
-
-            const result = await response.json();
+        if(backendResponse.status == 200){
             setTittleNotification('Sucesso!');
             setMessageNotification('Projeto salvo com sucesso!');
             setNotification(true);
@@ -89,12 +79,10 @@ const CreateProjectPage = () => {
                 setNotification(false);
                 navigate('/projects');
             }, 3000);
-
-        } catch (error) {
+        } else {
             setTittleNotification('Erro');
             setMessageNotification('Houve um problema ao conectar com o servidor.');
             setNotification(true);
-            console.error("Erro no envio:", error);
             setTimeout(() => {
                 setNotification(false);
             }, 3000);
